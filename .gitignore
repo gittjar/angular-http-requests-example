@@ -59,3 +59,6 @@ baseline.json
 # Husky
 .husky/_
 aio/content/examples/.DS_Store
+
+node_modules
+.angular/cache
