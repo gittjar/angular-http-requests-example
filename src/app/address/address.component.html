@@ -1,0 +1,15 @@
+
+<p>Address component!</p>
+<a href="https://reqres.in/api/users?page=2">Datasource</a>
+<br><br>
+<table *ngFor="let address of addressInfo.data">
+    <tr>
+        <th>ID Number</th>
+        <th>Avatar</th>
+    </tr>
+    <tr>
+        <td>{{address.id}} </td>
+        <td><img src="{{address.avatar}}"></td>
+    </tr>
+
+</table>

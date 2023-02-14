@@ -1,0 +1,7 @@
+
+<p>User component!</p>
+<a href="https://reqres.in/api/users">Datasource</a>
+<br><br>
+<li *ngFor="let user of userInfo.data">
+    <span>{{user.id}} -> [ {{user.first_name}} {{user.last_name}} ] email:{{user.email}}</span>
+</li>
